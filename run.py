@@ -37,15 +37,6 @@ plt.xlabel("x (Time of Sampling Point)")
 plt.ylabel("Curve (Power at Time Point)")
 plt.title("S700K Power Curve")
 
-# Print data (Debug)
-# print("x1 (Time of Sampling Point):")
-# for val in x1:
-#     print(f"{val:.5f}")
-
-# print("Curve1 (Power at Time Point):")
-# for val in curve1:
-#     print(f"{val:.5f}")
-
 # Set the format of tick labels
 plt.xticks(np.arange(0, max(x1), 0.1))
 plt.xticks(rotation=90, ha='center', fontsize=8)
