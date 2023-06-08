@@ -1,4 +1,5 @@
 # S700K-MPC-Data
+
 ## S700K Power Curve
 
 This project analyzes the power curve data of S700K and visualizes it using matplotlib.
